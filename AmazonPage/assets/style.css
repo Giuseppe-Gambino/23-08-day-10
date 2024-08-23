@@ -6,49 +6,48 @@
 
 /* stile caratteri */
 h1 {
-  font-size: 50px;
+  font-size: 2.5em;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-block: 30px;
 }
 
 h2 {
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 0.4em;
   margin-bottom: 30px;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 1.2em;
   padding: 10px;
-  font-weight: 600;
-}
-
-h4 {
-  font-size: 25px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 main a {
+  font-weight: 700;
+  font-size: 0.7em;
+  margin-left: 0.9em;
   text-decoration: none;
-  font-size: 20px;
-  margin-left: 15px;
-  color: #1c7888;
+  color: #176471;
 }
 
 /* header + logo + nav */
 header {
   background-color: #212f3f;
-  height: 111px;
+  height: 80px;
   align-content: center;
 }
 
-header div {
-  width: 1700px;
+header div,
+nav div {
+  width: 1500px;
   margin-inline: auto;
 }
 
 header img {
-  padding-block: 1vh;
+  height: 45px;
+  width: auto;
 }
 
 nav {
@@ -56,19 +55,14 @@ nav {
   width: 100%;
 }
 
-nav div {
-  width: 1700px;
-  margin-inline: auto;
-}
-
 /* stile link */
 nav ul li {
-  font-size: 20px;
+  font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
   color: white;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 1em;
   padding-block: 10px;
 }
 
@@ -90,7 +84,7 @@ body {
 }
 
 main {
-  width: 1700px;
+  width: 1500px;
   margin: 36px;
   margin-inline: auto;
 }
@@ -124,7 +118,7 @@ article {
 .lista {
   background-color: white;
   color: black;
-  height: 540px;
+  height: 520px;
 }
 
 .lista div {
@@ -134,32 +128,31 @@ article {
   padding-top: 20px;
 }
 
-.lista h2,
-h4 {
-  display: inline-block;
+.lista h2 {
   margin: 0;
 }
 
 /* stile box e immaginili lista */
 figure {
-  width: 360px;
-  height: 435px;
+  width: 330px;
+  height: 430px;
   display: inline-block;
-  margin: 25px;
-  border-radius: 35px;
-  box-shadow: 20px 20px 60px #d1d1d1, -20px -20px 60px #ffffff;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 14px 14px 16px #d1d1d1;
 }
 
 figure img {
   width: 100%;
   height: 100%;
-  border-radius: 35px;
+  border-radius: 25px;
   object-fit: cover;
 }
 
 /* categorie */
 
 /* gaming */
+
 .gaming img {
   width: 100%;
 }
@@ -183,8 +176,8 @@ footer {
 
 /* stile link */
 .tornasu {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 550;
+  font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -197,5 +190,5 @@ footer div {
 footer img {
   text-align: center;
   padding: 60px;
-  height: 70px;
+  height: 60px;
 }
