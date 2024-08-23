@@ -1,0 +1,201 @@
+/* Your styles here */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* stile caratteri */
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 15px;
+  color: #1c7888;
+}
+
+/* header + logo + nav */
+header {
+  background-color: #212f3f;
+  height: 111px;
+  align-content: center;
+}
+
+header div {
+  width: 1700px;
+  margin-inline: auto;
+}
+
+header img {
+  padding-block: 1vh;
+}
+
+nav {
+  background-color: #364759;
+  width: 100%;
+}
+
+nav div {
+  width: 1700px;
+  margin-inline: auto;
+}
+
+/* stile link */
+nav ul li {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  margin-right: 30px;
+  padding-block: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header,
+nav,
+section,
+footer {
+  color: white;
+}
+
+body {
+  width: 100%;
+  background-color: #e9edee;
+}
+
+main {
+  width: 1700px;
+  margin: 36px;
+  margin-inline: auto;
+}
+
+/* prime call */
+section,
+article {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.primaC {
+  background-color: #f86501;
+}
+
+.secondaC {
+  background-image: url(../assets/images/bg-image.png);
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  height: 250px;
+  align-content: center;
+}
+
+.secondaC div {
+  height: 150px;
+  align-content: center;
+}
+
+/* lista gift */
+.lista {
+  background-color: white;
+  color: black;
+  height: 540px;
+}
+
+.lista div {
+  text-align: left;
+  padding-inline: 25px;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+.lista h2,
+h4 {
+  display: inline-block;
+  margin: 0;
+}
+
+/* stile box e immaginili lista */
+figure {
+  width: 360px;
+  height: 435px;
+  display: inline-block;
+  margin: 25px;
+  border-radius: 35px;
+  box-shadow: 20px 20px 60px #d1d1d1, -20px -20px 60px #ffffff;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+  object-fit: cover;
+}
+
+/* categorie */
+
+/* gaming */
+.gaming img {
+  width: 100%;
+}
+
+/* music */
+.music img {
+  width: 100%;
+}
+
+/* footer e link torna su */
+footer {
+  text-align: center;
+}
+
+.footerlink {
+  background-color: #364759;
+  width: 100%;
+  padding-block: 20px;
+  margin-inline: auto;
+}
+
+/* stile link */
+.tornasu {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+footer div {
+  text-align: center;
+  background-color: #212f3f;
+}
+
+footer img {
+  text-align: center;
+  padding: 60px;
+  height: 70px;
+}
