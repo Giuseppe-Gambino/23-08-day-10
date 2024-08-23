@@ -125,10 +125,21 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
 
 let x = 0;
 
+// questo non comprende il 32
 while (numericArray[x] < 32 || numericArray[x] > 32) {
   console.log(numericArray[x]);
   x++;
 }
+
+// questo comprende il 32
+
+// while (numericArray[x] < 32 || numericArray[x] > 32) {
+//   console.log(numericArray[x]);
+//   x++;
+// if (numericArray[x] === 32) {
+//   console.log(numericArray[x]);
+// }
+// }
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
